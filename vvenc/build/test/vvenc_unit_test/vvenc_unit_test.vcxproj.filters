@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\LQ Duy\Documents\Project\vvenc\test\vvenc_unit_test\vvenc_unit_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\LQ Duy\Documents\Project\vvenc\test\vvenc_unit_test\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\LQ Duy\Documents\Project\vvenc\test\vvenc_unit_test\resource_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\LQ Duy\Documents\Project\vvenc\test\vvenc_unit_test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\LQ Duy\Documents\Project\vvenc\test\vvenc_unit_test\vvenc_unit_test.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8C823CE5-6767-33E0-A70E-6273644B64E0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{F793EB1F-4DE0-338B-BF1D-F41452AC0990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0C553A95-4FFF-3132-BD06-440E279626B2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

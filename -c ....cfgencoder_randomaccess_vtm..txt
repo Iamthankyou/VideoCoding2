@@ -1,0 +1,23 @@
+-c ..\..\cfg\encoder_randomaccess_vtm.cfg -i C:\Users\LQ Duy\Downloads\foreman_cif.y4m -o output.bin -wdt 832 -hgt 480 --FrameRate 50 -f 100
+
+-c "C:\Users\LQ Duy\Documents\Project\VVCSoftware_VTM\cfg\encoder_randomaccess_vtm.cfg" -i "C:\Users\LQ Duy\Downloads\foreman_cif.y4m" -o output_foreman.bin
+
+ffmpeg -i "path\to\your\my_video.mp4" -vf "scale=1920:1080" -r 30 -pix_fmt yuv420p "path\to\your\output_video_1920x1080_30.yuv"
+
+ffprobe -v error -select_streams v:0 -show_entries stream=width,height,avg_frame_rate,duration,bit_rate,codec_name,pix_fmt -of default=noprint_wrappers=1:nokey=1 "C:\Users\LQ Duy\Downloads\foreman_cif.y4m"
+
+-c "C:\Users\LQ Duy\Documents\Project\VVCSoftware_VTM\cfg\encoder_randomaccess_vtm.cfg" -i "C:\Users\LQ Duy\Downloads\foreman_cif.y4m" -o output_foreman.bin -wdt 352 -hgt 288 --FrameRate 30000/1001 -f 300
+
+ffmpeg -i C:\Users\LQ Duy\Downloads\foreman_cif.y4m -pix_fmt yuv420p input.yuv
+
+EncoderApp.exe -c C:\Users\LQ Duy\Documents\Project\VVCSoftware_VTM\cfg\encoder_randomaccess_vtm.cfg -i input.yuv -b output.bin -o reconstructed.yuv -wdt 352 -hgt 288 --FrameRate 30000/1001 -f 300
+
+-c "C:\Users\LQ Duy\Documents\Project\VVCSoftware_VTM\cfg\encoder_randomaccess_vtm.cfg" -i "C:\Users\LQ Duy\Documents\Project\VVCSoftware_VTM\build\source\App\foreman_cif.yuv" -b output.bin -o reconstructed.yuv -wdt 352 -hgt 288 --InputBitDepth=8 --InputChromaFormat=420 -fr 30 -f 300
+
+vvencapp.exe -i foreman_cif.yuv -s 352x288 -o output.bin
+
+vvdecapp.exe -b output.bin -o decoded.yuv
+
+./TAppEncoder.exe -c "C:/Users/LQ Duy/Documents/Project/VideoCoding/VVCSoftware_VTM/cfg/encoder_intra_vtm.cfg" -c "C:/Users/LQ Duy/Documents/Project/VideoCoding/VVCSoftware_VTM/cfg/per-sequence/BasketballDrive.cfg" -q 37 -f 33 2>> log.txt
+
+./TAppEncoder.exe -c "C:/Users/LQ Duy/Documents/Project/VideoCoding/VVCSoftware_VTM/cfg/encoder_randomaccess_vtm.cfg" -c "C:/Users/LQ Duy/Documents/Project/VideoCoding/VVCSoftware_VTM/cfg/per-sequence/BasketballDrive.cfg" -q 37 -f 33 2>> log.txt

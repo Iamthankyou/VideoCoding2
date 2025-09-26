@@ -1,0 +1,13 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/LQ Duy/Documents/Project/vvenc/build/cmake_install.cmake",
+		"C:/Users/LQ Duy/Documents/Project/vvenc/build/source/Lib/vvenc/cmake_install.cmake",
+		"C:/Users/LQ Duy/Documents/Project/vvenc/build/source/App/vvencapp/cmake_install.cmake",
+		"C:/Users/LQ Duy/Documents/Project/vvenc/build/source/App/vvencFFapp/cmake_install.cmake",
+		"C:/Users/LQ Duy/Documents/Project/vvenc/build/test/vvenclibtest/cmake_install.cmake",
+		"C:/Users/LQ Duy/Documents/Project/vvenc/build/test/vvencinterfacetest/cmake_install.cmake",
+		"C:/Users/LQ Duy/Documents/Project/vvenc/build/test/vvenc_unit_test/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

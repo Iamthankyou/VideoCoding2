@@ -1,0 +1,1 @@
+C:\Users\LQ Duy\Documents\Project\vvenc\build\source\Lib\vvenc\vvenc_x86_simd.dir\Release\vvenc_x86_simd.lib

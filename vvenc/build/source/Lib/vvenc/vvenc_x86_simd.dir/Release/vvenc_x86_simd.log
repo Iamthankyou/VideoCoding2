@@ -1,0 +1,31 @@
+﻿  Building Custom Rule C:/Users/LQ Duy/Documents/Project/vvenc/source/Lib/vvenc/CMakeLists.txt
+  AdaptiveLoopFilter_sse41.cpp
+  AffineGradientSearch_sse41.cpp
+  Buffer_sse41.cpp
+  DepQuant_sse41.cpp
+  FGA_sse41.cpp
+  InterPred_sse41.cpp
+  InterpolationFilter_sse41.cpp
+  IntraPred_sse41.cpp
+  LoopFilter_sse41.cpp
+  MCTF_avx41.cpp
+  Quant_sse41.cpp
+  RdCost_sse41.cpp
+  SampleAdaptiveOffset_sse41.cpp
+  Trafo_sse41.cpp
+  DepQuant_sse42.cpp
+  AdaptiveLoopFilter_avx2.cpp
+  AffineGradientSearch_avx2.cpp
+  Buffer_avx2.cpp
+  DepQuant_avx2.cpp
+  FGA_avx2.cpp
+  InterPred_avx2.cpp
+  InterpolationFilter_avx2.cpp
+  IntraPred_avx2.cpp
+  LoopFilter_avx2.cpp
+  MCTF_avx2.cpp
+  Quant_avx2.cpp
+  RdCost_avx2.cpp
+  SampleAdaptiveOffset_avx2.cpp
+  Trafo_avx2.cpp
+  vvenc_x86_simd.vcxproj -> C:\Users\LQ Duy\Documents\Project\vvenc\build\source\Lib\vvenc\vvenc_x86_simd.dir\Release\vvenc_x86_simd.lib

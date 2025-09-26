@@ -1,0 +1,8 @@
+﻿  Building Custom Rule C:/Users/LQ Duy/Documents/Project/vvenc/source/App/vvencFFapp/CMakeLists.txt
+  EncApp.cpp
+  encmain.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 14316 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  vvencFFapp.vcxproj -> C:\Users\LQ Duy\Documents\Project\vvenc\bin\release-static\vvencFFapp.exe

@@ -1,0 +1,24 @@
+﻿  Building Custom Rule C:/Users/LQ Duy/Documents/Project/vvenc/test/vvenc_unit_test/CMakeLists.txt
+  vvenc_unit_test.cpp
+C:\Users\LQ Duy\Documents\Project\vvenc\test\vvenc_unit_test\vvenc_unit_test.cpp(392,13): error C2220: the following warning is treated as an error
+C:\Users\LQ Duy\Documents\Project\vvenc\test\vvenc_unit_test\vvenc_unit_test.cpp(392,13): warning C4127: conditional expression is constant
+      C:\Users\LQ Duy\Documents\Project\vvenc\test\vvenc_unit_test\vvenc_unit_test.cpp(392,13):
+      the template instantiation context (the oldest one first) is
+          C:\Users\LQ Duy\Documents\Project\vvenc\test\vvenc_unit_test\vvenc_unit_test.cpp(558,14):
+          see reference to function template instantiation 'bool check_roundClip<4>(vvenc::TCoeffOps *,vvenc::TCoeffOps *,unsigned int,unsigned int,unsigned int)' being compiled
+  
+C:\Users\LQ Duy\Documents\Project\vvenc\test\vvenc_unit_test\vvenc_unit_test.cpp(1357,17): warning C4127: conditional expression is constant
+      C:\Users\LQ Duy\Documents\Project\vvenc\test\vvenc_unit_test\vvenc_unit_test.cpp(1357,17):
+      the template instantiation context (the oldest one first) is
+          C:\Users\LQ Duy\Documents\Project\vvenc\test\vvenc_unit_test\vvenc_unit_test.cpp(1562,12):
+          see reference to function template instantiation 'bool check_filterXxY_N8<false,4>(vvenc::InterpolationFilter *,vvenc::InterpolationFilter *,unsigned int)' being compiled
+  
+C:\Users\LQ Duy\Documents\Project\vvenc\test\vvenc_unit_test\vvenc_unit_test.cpp(1385,17): warning C4127: conditional expression is constant
+C:\Users\LQ Duy\Documents\Project\vvenc\test\vvenc_unit_test\vvenc_unit_test.cpp(1392,22): warning C4127: conditional expression is constant
+C:\Users\LQ Duy\Documents\Project\vvenc\test\vvenc_unit_test\vvenc_unit_test.cpp(1463,17): warning C4127: conditional expression is constant
+      C:\Users\LQ Duy\Documents\Project\vvenc\test\vvenc_unit_test\vvenc_unit_test.cpp(1463,17):
+      the template instantiation context (the oldest one first) is
+          C:\Users\LQ Duy\Documents\Project\vvenc\test\vvenc_unit_test\vvenc_unit_test.cpp(1569,12):
+          see reference to function template instantiation 'bool check_filterXxY_N4<false,4>(vvenc::InterpolationFilter *,vvenc::InterpolationFilter *,unsigned int)' being compiled
+  
+C:\Users\LQ Duy\Documents\Project\vvenc\test\vvenc_unit_test\vvenc_unit_test.cpp(1470,22): warning C4127: conditional expression is constant
